@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediatorWithMaui.Views.HomeView"
+             xmlns:viewModels="clr-namespace:MediatorWithMaui.ViewModels"
+             xmlns:models="clr-namespace:MediatorWithMaui.Models"
+             x:DataType="viewModels:HomeViewModel"
+             Title="Home">
+    <VerticalStackLayout
+        Padding="10">
+        <ListView
+            ItemsSource="{Binding TodoItems}"
+            HasUnevenRows="True"
+            SelectionMode="None"
+            SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate
+                    x:DataType="models:Todo">
+                    <ViewCell>
+                        <StackLayout>
+                            <Frame
+                                Padding="0"
+                                Margin="5">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:HomeViewModel}}, Path=TapCommand}"
+                                        CommandParameter="{Binding .}"/>
+                                </Frame.GestureRecognizers>
+                                <Grid
+                                    Padding="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="60*"/>
+                                        <ColumnDefinition Width="20*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label
+                                        Text="{Binding Title}"
+                                        FontSize="16"
+                                        Grid.ColumnSpan="2"/>
+                                    <Label
+                                        Text="{Binding Description}"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="2"/>
+
+                                    <Label
+                                        Text="{Binding Duedate, StringFormat='due by: {0:dd-MMM-yyyy}'}"
+                                        FontAttributes="Italic"
+                                        Grid.Row="2"/>
+
+                                    <Label
+                                        Text="{Binding Status}"
+                                        HorizontalTextAlignment="Center"
+                                        FontAttributes="Italic"
+                                        Grid.Row="2"
+                                        Grid.Column="1"/>
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediatorWithMaui.Views.EditTodoView"
+             xmlns:viewModels="clr-namespace:MediatorWithMaui.ViewModels"
+             x:DataType="viewModels:EditTodoViewModel"
+             Title="Edit">
+    <VerticalStackLayout
+        Padding="10"
+        Spacing="10">
+        <Label
+            Text="Title"/>
+        <Entry
+            Text="{Binding Todo.Title}"/>
+
+        <Label
+            Text="Description"/>
+        <Entry
+            Text="{Binding Todo.Description}"/>
+
+        <Label
+            Text="Status"/>
+        <Picker
+            SelectedItem="{Binding Todo.Status}">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Inprogress</x:String>
+                    <x:String>Completed</x:String>
+                    <x:String>Onhold</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button 
+            Text="Update"
+            Command="{Binding UpdateCommand}" />
+
+        <Button
+            Text="Delete"
+            Command="{Binding DeleteCommand}" />
+
+        <Button
+            Text="Go back"
+            Command="{Binding GoBackCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

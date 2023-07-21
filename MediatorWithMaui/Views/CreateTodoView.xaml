@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediatorWithMaui.Views.CreateTodoView"
+             xmlns:viewModels="clr-namespace:MediatorWithMaui.ViewModels"
+             x:DataType="viewModels:CreateTodoViewModel"
+             Title="Create">
+    <VerticalStackLayout
+        Padding="10">
+        <Label 
+            Text="Here you can add new TODO item"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Title"/>
+        <Entry
+            Text="{Binding Title}"/>
+
+        <Label
+            Text="Description"/>
+        <Entry
+            Text="{Binding Description}"/>
+
+        <Label
+            Text="Duedate"/>
+        <DatePicker
+            Date="{Binding Duedate}"/>
+
+        <Button
+            Text="Save"
+            Command="{Binding SaveCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>
