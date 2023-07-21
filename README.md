@@ -6,7 +6,7 @@ This can be implemented in any .Net application. Today, we're going to explore h
 I’m assuming that you have already watched my previous tutorial on <a href="https://youtu.be/r3HLFO2Yz1g">.Net Maui Storage Options | Preferences | Secure Storage | File System | Sqlite</a>.<br/>
 If not, I strongly recommend you watch that and come back here<br/>
 
-<a href="https://youtu.be/M3BNPYR7hm0">Watch this on Youtube</a> <br/>
+<a href="https://youtu.be/M3BNPYR7hm0">Watch this MAUI with MediatR on Youtube</a> <br/>
 
 Follow us on <br/>
 <a href="https://twitter.com/Skynetechs">twitter</a> <br/>
@@ -14,3 +14,6 @@ Follow us on <br/>
 
 <br/>
 <a href="https://github.com/Skynet-Demos">All Skynet-Demo Git Repos</a> <br/>
+
+<br>
+<a href="https://www.buymeacoffee.com/skynetechs">Buy me a Coffee</a>
