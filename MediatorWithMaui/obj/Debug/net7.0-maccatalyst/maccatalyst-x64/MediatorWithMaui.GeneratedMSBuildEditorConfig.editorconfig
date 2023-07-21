@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MediatorWithMaui
+build_property.ProjectDir = C:\Users\Raj-PC\source\repos\MediatorWithMaui\MediatorWithMaui\
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/Views/CreateTodoView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.Views.CreateTodoView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CreateTodoView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CreateTodoView.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/Views/DashboardView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.Views.DashboardView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DashboardView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DashboardView.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/Views/EditTodoView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.Views.EditTodoView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditTodoView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditTodoView.xaml
+
+[C:/Users/Raj-PC/source/repos/MediatorWithMaui/MediatorWithMaui/Views/HomeView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MediatorWithMaui.Views.HomeView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomeView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomeView.xaml
